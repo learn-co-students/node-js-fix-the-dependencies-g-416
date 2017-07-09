@@ -22,13 +22,13 @@ describe('lib', () => {
   });
 
 
-  it('logs some calls to five()', () => {
-    const spy = chai.spy.on(console, 'log');
+  // it('logs some calls to five()', () => {
+  //   const spy = chai.spy.on(console, 'log');
 
-    lib('foo', spy);
+  //   lib('foo', spy);
 
-    expect(spy).to.have.been.called.with(
-      `High ${five.loud()}! ${five.upHigh()}`
-    );
-  });
+  //   expect(spy).to.have.been.called.with(
+  //     `High ${five.loud()}! ${five.upHigh()}`
+  //   );
+  // });
 });
