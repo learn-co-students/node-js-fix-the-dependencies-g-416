@@ -1,0 +1,58 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2017-10-23T00:55:42.402Z",
+    "end": "2017-10-23T00:55:42.478Z",
+    "duration": 76
+  },
+  "tests": [
+    {
+      "title": "logs the result of calling helloFlatiron()",
+      "fullTitle": "lib logs the result of calling helloFlatiron()",
+      "duration": 26,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Invalid Chai property: _his. Did you mean \"is\"?\n    at Error (native)\n    at Object.proxyGetter [as get] (node_modules/chai/lib/chai/utils/proxify.js:63:17)\n    at Proxy.assertWith (node_modules/chai-spies/lib/spy.js:283:29)\n    at Proxy.chainableMethodWrapper (node_modules/chai/lib/chai/utils/addChainableMethod.js:113:49)\n    at Context.it (test/index.js:21:41)",
+        "message": "Invalid Chai property: _his. Did you mean \"is\"?"
+      }
+    },
+    {
+      "title": "logs some calls to five()",
+      "fullTitle": "lib logs some calls to five()",
+      "duration": 12,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Invalid Chai property: _his. Did you mean \"is\"?\n    at Error (native)\n    at Object.proxyGetter [as get] (node_modules/chai/lib/chai/utils/proxify.js:63:17)\n    at Proxy.assertWith (node_modules/chai-spies/lib/spy.js:283:29)\n    at Proxy.chainableMethodWrapper (node_modules/chai/lib/chai/utils/addChainableMethod.js:113:49)\n    at Context.it (test/index.js:30:41)",
+        "message": "Invalid Chai property: _his. Did you mean \"is\"?"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "logs the result of calling helloFlatiron()",
+      "fullTitle": "lib logs the result of calling helloFlatiron()",
+      "duration": 26,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Invalid Chai property: _his. Did you mean \"is\"?\n    at Error (native)\n    at Object.proxyGetter [as get] (node_modules/chai/lib/chai/utils/proxify.js:63:17)\n    at Proxy.assertWith (node_modules/chai-spies/lib/spy.js:283:29)\n    at Proxy.chainableMethodWrapper (node_modules/chai/lib/chai/utils/addChainableMethod.js:113:49)\n    at Context.it (test/index.js:21:41)",
+        "message": "Invalid Chai property: _his. Did you mean \"is\"?"
+      }
+    },
+    {
+      "title": "logs some calls to five()",
+      "fullTitle": "lib logs some calls to five()",
+      "duration": 12,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Invalid Chai property: _his. Did you mean \"is\"?\n    at Error (native)\n    at Object.proxyGetter [as get] (node_modules/chai/lib/chai/utils/proxify.js:63:17)\n    at Proxy.assertWith (node_modules/chai-spies/lib/spy.js:283:29)\n    at Proxy.chainableMethodWrapper (node_modules/chai/lib/chai/utils/addChainableMethod.js:113:49)\n    at Context.it (test/index.js:30:41)",
+        "message": "Invalid Chai property: _his. Did you mean \"is\"?"
+      }
+    }
+  ],
+  "passes": []
+}
