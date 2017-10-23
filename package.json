@@ -4,7 +4,7 @@
   "description": "A Learn.co lab for the ins and outs of npm",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,17 +22,14 @@
   },
   "homepage": "https://github.com/learn-co-curriculum/node-js-fix-the-dependencies#readme",
   "devDependencies": {
-    "chai": "^4.1.2",
+    "chai": "^3.5.0",
     "chai-spies": "^0.7.1",
-    "five": "^0.8.0",
-    "hello-flatiron": "github:learn-co-curriculum/node-js-hello-flatiron",
-    "mocha": "^4.0.1",
-    "mocha-multi": "^0.11.1",
-    "pluggable-flatiron": "github:learn-co-curriculum/node-js-pluggable-flatiron#14f3c7ad246c3c29889b9beb7f58fed38cdfb956"
+    "mocha": "^2.4.5"
   },
   "dependencies": {
     "five": "^0.8.0",
     "hello-flatiron": "learn-co-curriculum/node-js-hello-flatiron",
+    "mocha-multi": "^0.11.1",
     "pluggable-flatiron": "learn-co-curriculum/node-js-pluggable-flatiron#14f3c7a"
   }
 }
