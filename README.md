@@ -8,7 +8,7 @@ In this lab, we're going to explore how to resolve dependency issues in Node.js.
 
 1. Explain errors that npm prints during `npm install`
 2. Determine solutions based the errors that npm provides
-3. Explain npm peerDepencies
+3. Explain npm peerDependencies
 
 ## Getting started
 
