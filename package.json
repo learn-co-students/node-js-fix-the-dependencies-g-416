@@ -22,6 +22,14 @@
   },
   "homepage": "https://github.com/learn-co-curriculum/node-js-fix-the-dependencies#readme",
   "devDependencies": {
-    "chai-spies": "^0.7.1"
+    "chai": "^4.1.2",
+    "chai-spies": "^1.0.0",
+    "mocha": "^5.0.5",
+    "mocha-multi": "^1.0.1"
+  },
+  "dependencies": {
+    "five": "^0.8.0",
+    "pluggable-flatiron": "kheyro/node-js-pluggable-flatiron",
+    "hello-flatiron": "learn-co-curriculum/node-js-hello-flatiron"
   }
 }
