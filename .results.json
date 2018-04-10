@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-04-10T12:09:30.128Z",
+    "end": "2018-04-10T12:09:30.134Z",
+    "duration": 6
+  },
+  "tests": [
+    {
+      "title": "logs the result of calling helloFlatiron()",
+      "fullTitle": "lib logs the result of calling helloFlatiron()",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "logs the result of calling helloFlatiron()",
+      "fullTitle": "lib logs the result of calling helloFlatiron()",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
