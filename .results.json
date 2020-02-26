@@ -1,0 +1,46 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-02-26T20:45:11.236Z",
+    "end": "2020-02-26T20:45:11.246Z",
+    "duration": 10
+  },
+  "tests": [
+    {
+      "title": "logs the result of calling helloFlatiron()",
+      "fullTitle": "lib logs the result of calling helloFlatiron()",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "logs some calls to five()",
+      "fullTitle": "lib logs some calls to five()",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "logs the result of calling helloFlatiron()",
+      "fullTitle": "lib logs the result of calling helloFlatiron()",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "logs some calls to five()",
+      "fullTitle": "lib logs some calls to five()",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
