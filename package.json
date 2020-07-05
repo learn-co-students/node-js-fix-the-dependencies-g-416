@@ -21,7 +21,19 @@
     "url": "https://github.com/learn-co-curriculum/node-js-fix-the-dependencies/issues"
   },
   "homepage": "https://github.com/learn-co-curriculum/node-js-fix-the-dependencies#readme",
+  "dependencies": {
+    "chai-spies": "^1.0.0",
+    "five": "^0.8.0",
+    "hello-flatiron": "learn-co-curriculum/node-js-hello-flatiron",
+    "pluggable-flatiron": "learn-co-curriculum/node-js-pluggable-flatiron#14f3c7a"
+  },
   "devDependencies": {
-    "chai-spies": "^0.7.1"
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "mocha-multi": "^1.1.3",
+    "mocha-multi-reporters": "^1.1.7"
+  },
+  "peerDependencies": {
+    "pluggable-flatiron": "learn-co-curriculum/node-js-pluggable-flatiron#14f3c7a"
   }
 }
