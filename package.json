@@ -27,9 +27,9 @@
   "dependencies": {
     "chai": "^3.5.0",
     "five": "^0.8.0",
+    "hello-flatiron": "github:Crankums/node-js-hello-flatiron",
     "mocha": "^8.1.3",
     "mocha-multi": "^1.1.3",
-    "pluggable-flatiron": "Crankums/node-js-pluggable-flatiron#14f3c7a",
-    "hello-flatiron": "Crankums/node-js-hello-flatiron"
+    "pluggable-flatiron": "github:Crankums/node-js-pluggable-flatiron#14f3c7a"
   }
 }
