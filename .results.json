@@ -1,0 +1,50 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-09-23T03:48:41.253Z",
+    "end": "2020-09-23T03:48:41.290Z",
+    "duration": 37
+  },
+  "tests": [
+    {
+      "title": "logs the result of calling helloFlatiron()",
+      "fullTitle": "lib logs the result of calling helloFlatiron()",
+      "file": "/mnt/c/Users/crdon/Documents/Projects/nodespace/node-js-fix-the-dependencies-g-416/test/index.js",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "logs some calls to five()",
+      "fullTitle": "lib logs some calls to five()",
+      "file": "/mnt/c/Users/crdon/Documents/Projects/nodespace/node-js-fix-the-dependencies-g-416/test/index.js",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "logs the result of calling helloFlatiron()",
+      "fullTitle": "lib logs the result of calling helloFlatiron()",
+      "file": "/mnt/c/Users/crdon/Documents/Projects/nodespace/node-js-fix-the-dependencies-g-416/test/index.js",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "logs some calls to five()",
+      "fullTitle": "lib logs some calls to five()",
+      "file": "/mnt/c/Users/crdon/Documents/Projects/nodespace/node-js-fix-the-dependencies-g-416/test/index.js",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
